@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: server
-          image: arcaplay/multi-server
+          image: stephengrider/multi-server
           ports:
             - containerPort: 5000
           env:
